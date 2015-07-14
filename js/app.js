@@ -9,7 +9,7 @@
   // EDITING STARTS HERE (you dont need to edit anything above this line)
 
   var db =  new PouchDB('test');
-  var remoteCouch = 'https://tuanphong.couchappy.com/todos';
+  var remoteCouch = 'https://tuanphong.iriscouch.com/todos';
 
   db.info(function(err, info) {
     db.changes({
